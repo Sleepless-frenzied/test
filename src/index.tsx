@@ -18,7 +18,7 @@ const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );
 root.render(
-    <BrowserRouter basename="/products/eurocave/">
+    <BrowserRouter basename="">
 
             <React.StrictMode>
                 <Suspense fallback={loadingMarkup}>
